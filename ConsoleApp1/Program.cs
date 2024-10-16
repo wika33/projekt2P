@@ -2,9 +2,14 @@
 {
     static void Main(string[] args)
     {
-       for (int i = 0; i < 10; i++) 
+        int liczba = 1;
+        while (liczba >= 5);
         {
-            Console.WriteLine(i);
+            Console.WriteLine("liczba:" + liczba);
+            liczba++;
+
+
+
         }
-    }
+     }
 }
