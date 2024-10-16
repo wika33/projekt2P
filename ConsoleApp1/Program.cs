@@ -1,15 +1,14 @@
-﻿class Program
+﻿using System.Runtime.Versioning;
+
+class Program
 {
     static void Main(string[] args)
     {
-        int liczba = 1;
-        while (liczba >= 5);
+        string podaneslowo = Console.ReadLine();
+
+        foreach (char s in podaneslowo)
         {
-            Console.WriteLine("liczba:" + liczba);
-            liczba++;
-
-
-
+            Console.WriteLine(s);
         }
      }
 }
